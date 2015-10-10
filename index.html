@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
+	<title>Game List</title>
+	<meta name="viewport" content="initial-scale=1, width=device-width">
+	
+	<link rel="stylesheet" href="/assets/css/app.css" media="screen">
+	<script src="/assets/js/angular.min.js"></script>
+		 <!-- Modules -->
+    <script src="/assets/js/app.js"></script>
+    <!-- Controllers -->
+    <script src="/assets/js/controllers/appController.js"></script>
+</head>
+
+<body ng-app="gameList">
+	<div class="main" ng-controller="appController">
+		<div class="container">
+			<h1>{{title}}</h1>
+		</div>
+	</div>
+	<!--http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=E1236C804C048AFC127EE0003D297864&steamids=76561197994963410
+	Your Steam Web API Key
+
+	Key: E1236C804C048AFC127EE0003D297864
+
+	Domain Name: jenniferpatel.com
+
+	http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=XXXXXXXXXXXXXXXXX&steamid=76561197960434622&format=json
+
+	Example URL: http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamid=76561197972495328
+
+	Example URL: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamid=76561197972495328 -->
+
+</body>
+</html>
