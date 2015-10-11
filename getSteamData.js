@@ -26,17 +26,78 @@ http.get(getOwnedGamesUrl, function(res){
 			if(responseGameData.response.games[i].playtime_forever !== 0){
 				game = responseGameData.response.games[i];
 				game.name = "";
+				game.totalAchievements = 0;
+				game.totalPlayerAchievements = 0;
 				game.achievements = [];
 				gameData.games.push(game);
 				
 			}
 		}
-		getGameInformation();
+		getPlayerAchievements();
 	});
 	
 }).on('error', function(e){
 	console.log("getOwnedGamesUrl got error: " + e.message);
 });
+
+var getPlayerAchievements = function(){
+	console.log("Get Player Achievements");
+	var lookup = {};
+	for (var i=0,j=gameData.games.length; i<j; i++){
+		lookup[gameData.games[i].appid] = gameData.games[i];
+	}
+	var httpCount = 0;
+	var totalGames = gameData.games.length;
+
+	for(var i=0,j=gameData.games.length; i<j; i++){
+		http.get(getPlayerAchievementsUrl + gameData.games[i].appid, function(res){
+			var path = res.socket._httpMessage.path;
+			var appid = path.substring(path.indexOf("&appid=") + "&appid=".length);
+			var responseString = "";
+			res.setEncoding('utf8');
+			
+			res.on('data', function(data){
+				responseString += data;
+			}).on("end", function(){
+				var responseGameAchievements = JSON.parse(responseString);
+
+				if(responseGameAchievements.playerstats.achievements !== undefined){
+					lookup[appid].totalAchievements = responseGameAchievements.playerstats.achievements.length;
+					for(var k=0,l=responseGameAchievements.playerstats.achievements.length; k<l; k++){
+						if(responseGameAchievements.playerstats.achievements[k].achieved === 1){
+							var achievement = {
+								name: responseGameAchievements.playerstats.achievements[k].apiname,
+								icon: "",
+								displayName: "",
+								description: ""
+							};
+							lookup[appid].totalPlayerAchievements++;
+							lookup[appid].achievements.push(achievement);
+						}
+					}
+				}else{
+					//Remove Game
+					var gameIndex = gameData.games.indexOf(lookup[appid]);
+					
+					if(gameIndex > -1) {
+					    gameData.games.splice(gameIndex, 1);
+					}
+				}
+				
+				httpCount++;
+			});
+		}).on('error', function(e){
+			console.log("getGameInformationUrl got error: " + e.message);
+		});
+	}
+
+	var httpTimer = setInterval(function(){
+		if(httpCount === totalGames){
+			clearInterval(httpTimer);
+			getGameInformation();
+		}
+	}, 100);
+};
 
 var getGameInformation = function(){
 	console.log("Get Game Information");
@@ -64,7 +125,16 @@ var getGameInformation = function(){
 					responseGameInformation.game.gameName.indexOf("ValveTestApp") === -1){
 					lookup[appid].name = responseGameInformation.game.gameName;
 
-					//loop through achievemets and grab icons
+					for(var k=0,l=lookup[appid].achievements.length; k<l; k++){
+						for(var n=0,m=responseGameInformation.game.availableGameStats.achievements.length; n<m; n++){
+							if(lookup[appid].achievements[k].name === responseGameInformation.game.availableGameStats.achievements[n].name){
+								lookup[appid].achievements[k].displayName = responseGameInformation.game.availableGameStats.achievements[n].displayName;
+								lookup[appid].achievements[k].icon = responseGameInformation.game.availableGameStats.achievements[n].icon;
+								lookup[appid].achievements[k].description = responseGameInformation.game.availableGameStats.achievements[n].description;
+								break;
+							}
+						}
+					}
 				}else{
 					//Remove Game
 					var gameIndex = gameData.games.indexOf(lookup[appid]);
@@ -73,48 +143,6 @@ var getGameInformation = function(){
 					    gameData.games.splice(gameIndex, 1);
 					}
 				}
-				httpCount++;
-			});
-		}).on('error', function(e){
-			console.log("getGameInformationUrl got error: " + e.message);
-		});
-	}
-
-	var httpTimer = setInterval(function(){
-		if(httpCount === totalGames){
-			clearInterval(httpTimer);
-			getPlayerAchievements();
-		}
-	}, 100);
-};
-
-var getPlayerAchievements = function(){
-	console.log("Get Player Achievements");
-	var lookup = {};
-	for (var i=0,j=gameData.games.length; i<j; i++){
-		lookup[gameData.games[i].appid] = gameData.games[i];
-	}
-	var httpCount = 0;
-	var totalGames = gameData.games.length;
-
-	for(var i=0,j=gameData.games.length; i<j; i++){
-		http.get(getPlayerAchievementsUrl + gameData.games[i].appid, function(res){
-			var path = res.socket._httpMessage.path;
-			var appid = path.substring(path.indexOf("&appid=") + "&appid=".length);
-			var responseString = "";
-			res.setEncoding('utf8');
-			
-			res.on('data', function(data){
-				responseString += data;
-			}).on("end", function(){
-				var responseGameAchievements = JSON.parse(responseString);
-				
-				for(var k=0,l=responseGameAchievements.playerstats.achievements.length; k<l; k++){
-					if(responseGameAchievements.playerstats.achievements[k].achieved === 1){
-						lookup[appid].achievements.push(responseGameAchievements.playerstats.achievements[k].apiname);
-					}
-				}
-				
 				httpCount++;
 			});
 		}).on('error', function(e){

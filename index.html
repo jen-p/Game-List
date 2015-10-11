@@ -7,51 +7,34 @@
 	
 	<link rel="stylesheet" href="/assets/css/app.css" media="screen">
 	<script src="/assets/js/angular.min.js"></script>
-		 <!-- Modules -->
+	<!-- Modules -->
     <script src="/assets/js/app.js"></script>
     <!-- Controllers -->
     <script src="/assets/js/controllers/appController.js"></script>
+    <!-- Services -->
+    <script src="/assets/js/services/gamelist.js"></script>
+</body>
 </head>
 
 <body ng-app="gameList">
 	<div class="main" ng-controller="appController">
 		<div class="container">
+			
 			<h1>{{title}}</h1>
-			<div ng-repeat="game in games">
-				<h2>{{game.name}}</h2>
-				<p>{{game.playtime_forever}}
-				<ul>
-					<li ng-repeat="achievement in achievements">
-						<img ng-src="{{achievement.icon}}">
-						{{achievement.displayName}}
-					</li>
-				</ul>
+			<div class="gameItem gameList" ng-repeat="game in gamelist.games">
+					<div class="twelve columns">
+						<h3>{{game.name}}</h3>
+						<p class="timePlayed">{{game.playtime_forever/60}} hours | {{game.totalPlayerAchievements}}/{{game.totalAchievements}} Achievements</p>
+					</div>
+					<ul>
+						<li class="three columns" ng-repeat="achievement in game.achievements">
+							<img class="achieveImg" ng-src="{{achievement.icon}}">
+							<p class="achieveName">{{achievement.displayName}}</p>
+							<p class="achieveDescription">{{achievement.description}}</p>
+						</li>
+					</ul>
+				</div>
 			</div>
 		</div>
 	</div>
-	<!--http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=E1236C804C048AFC127EE0003D297864&steamids=76561197994963410
-	Your Steam Web API Key
-
-	Key: E1236C804C048AFC127EE0003D297864
-
-	Domain Name: jenniferpatel.com
-
-	
-	
-	
-
-	Example URL: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197994963410 
-	
-	- get owned games: 
-		- http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=E1236C804C048AFC127EE0003D297864&steamid=76561197994963410&format=json
-	- filter out ones with 0 hours played
-	- use ids of games to get game information
-		-  http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=E1236C804C048AFC127EE0003D297864&appid=218620
-		- name
-	- get player achievements
-	Example URL: http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197994963410
-
-	-->
-
-</body>
 </html>

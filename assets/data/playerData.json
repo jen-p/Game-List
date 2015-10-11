@@ -4,151 +4,605 @@
             "appid": 220,
             "playtime_forever": 1,
             "name": "Half-Life 2",
+            "totalAchievements": 33,
+            "totalPlayerAchievements": 0,
             "achievements": []
         },
         {
             "appid": 400,
             "playtime_forever": 258,
             "name": "Portal",
+            "totalAchievements": 15,
+            "totalPlayerAchievements": 7,
             "achievements": [
-                "PORTAL_GET_PORTALGUNS",
-                "PORTAL_KILL_COMPANIONCUBE",
-                "PORTAL_ESCAPE_TESTCHAMBERS",
-                "PORTAL_BEAT_GAME",
-                "PORTAL_BEAT_2ADVANCEDMAPS",
-                "PORTAL_BEAT_4ADVANCEDMAPS",
-                "PORTAL_HIT_TURRET_WITH_TURRET"
+                {
+                    "name": "PORTAL_GET_PORTALGUNS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_getportalguns.jpg",
+                    "displayName": "Lab Rat",
+                    "description": "Acquire the fully powered Aperture Science Handheld Portal Device."
+                },
+                {
+                    "name": "PORTAL_KILL_COMPANIONCUBE",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_kill_companioncube.jpg",
+                    "displayName": "Fratricide",
+                    "description": "Do whatever it takes to survive."
+                },
+                {
+                    "name": "PORTAL_ESCAPE_TESTCHAMBERS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_escape_testchambers.jpg",
+                    "displayName": "Partygoer",
+                    "description": "Make the correct party escort submission position decision."
+                },
+                {
+                    "name": "PORTAL_BEAT_GAME",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_beat_game.jpg",
+                    "displayName": "Heartbreaker",
+                    "description": "Complete Portal."
+                },
+                {
+                    "name": "PORTAL_BEAT_2ADVANCEDMAPS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_beat_2advancedmaps.jpg",
+                    "displayName": "Cupcake",
+                    "description": "Beat two Portal advanced maps."
+                },
+                {
+                    "name": "PORTAL_BEAT_4ADVANCEDMAPS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_beat_4advancedmaps.jpg",
+                    "displayName": "Fruitcake",
+                    "description": "Beat four Portal advanced maps."
+                },
+                {
+                    "name": "PORTAL_HIT_TURRET_WITH_TURRET",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/400/portal_hit_turret_with_turret.jpg",
+                    "displayName": "Friendly Fire",
+                    "description": "Knock down a turret with another turret."
+                }
             ]
         },
         {
             "appid": 12900,
             "playtime_forever": 306,
             "name": "Audiosurf",
+            "totalAchievements": 19,
+            "totalPlayerAchievements": 3,
             "achievements": [
-                "ACH_GOLD_NO_OVERFILL",
-                "ACH_MULTICLEAN",
-                "ACH_PPM_LOW"
+                {
+                    "name": "ACH_GOLD_NO_OVERFILL",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/12900/7e5993181c641c4da2b21c1f1e2b26502a341ffd.jpg",
+                    "displayName": "Royal Ride",
+                    "description": "Earn Gold without overfilling. 2 min minimum."
+                },
+                {
+                    "name": "ACH_MULTICLEAN",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/12900/fbb3b94d83b69d5a7ae6269cd377414fe214ef1b.jpg",
+                    "displayName": "Stainless",
+                    "description": "Earn Clean Finish and Gold 3 times in a row."
+                },
+                {
+                    "name": "ACH_PPM_LOW",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/12900/4d1751bf3007634e1398a92fe40b33a970b8329d.jpg",
+                    "displayName": "PPM 10,000",
+                    "description": "10000 points per minute. 3 minute minimum."
+                }
             ]
         },
         {
             "appid": 35140,
             "playtime_forever": 811,
             "name": "Batman Arkham Asylum GOTY",
+            "totalAchievements": 47,
+            "totalPlayerAchievements": 19,
             "achievements": [
-                "NEW_ACHIEVEMENT_1_0",
-                "NEW_ACHIEVEMENT_1_1",
-                "NEW_ACHIEVEMENT_1_2",
-                "NEW_ACHIEVEMENT_1_3",
-                "NEW_ACHIEVEMENT_1_4",
-                "NEW_ACHIEVEMENT_1_5",
-                "NEW_ACHIEVEMENT_1_6",
-                "NEW_ACHIEVEMENT_1_7",
-                "NEW_ACHIEVEMENT_1_8",
-                "NEW_ACHIEVEMENT_1_9",
-                "NEW_ACHIEVEMENT_1_10",
-                "NEW_ACHIEVEMENT_1_11",
-                "NEW_ACHIEVEMENT_1_25",
-                "NEW_ACHIEVEMENT_1_26",
-                "NEW_ACHIEVEMENT_2_6",
-                "NEW_ACHIEVEMENT_2_7",
-                "NEW_ACHIEVEMENT_2_8",
-                "NEW_ACHIEVEMENT_2_9",
-                "NEW_ACHIEVEMENT_2_10"
+                {
+                    "name": "NEW_ACHIEVEMENT_1_0",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/ceebaa4198a219b156a882bc363a1bb544aa3a14.jpg",
+                    "displayName": "Shocking Rescue",
+                    "description": "Take down Zsasz in the Patient Pacification Chamber"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_1",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/063536fd46bb58d6d54dafa6e62b78f9674751b1.jpg",
+                    "displayName": "Leave No Man Behind",
+                    "description": "Rescue the guards and henchman from the Joker toxin in Decontamination"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_2",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/858eff024794a5620f9c179670dc60c671b1db08.jpg",
+                    "displayName": "Malpractice Needs More Practice",
+                    "description": "Survive the onslaught from the deformed Joker henchman"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_3",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/53fdba6682c3cbd564e673a58334a235c525ca98.jpg",
+                    "displayName": "Born Free",
+                    "description": "Escape from Intensive Treatment to the island surface"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_4",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/554d0d6ba74d74283e3a2b12255dc017e6335b3d.jpg",
+                    "displayName": "Just What The Doctors Ordered",
+                    "description": "Save all the doctors in medical"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_5",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/b67ab243720090a52d203c826480ab104e29f332.jpg",
+                    "displayName": "Daydreamer",
+                    "description": "Survive the nightmare of the Scarecrow's fear gas"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_6",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/f5ea54f7f03cc598953d60d071d6f413d917ac2f.jpg",
+                    "displayName": "Baneful Payback",
+                    "description": "Defeat Bane"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_7",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/50271e497dae669c06da6081ccc84b2e1bc996e9.jpg",
+                    "displayName": "Breaking And Entering",
+                    "description": "Gain access to Administration after it is locked down by the Joker"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_8",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/6b389f214344058b8192570a3285d519c38f8b28.jpg",
+                    "displayName": "Recurring Nightmare",
+                    "description": "Face your biggest fears and keep your sanity"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_9",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/76994940ec30a3a898705c26308503908ce8a37f.jpg",
+                    "displayName": "Zsasz Cut Down To Size",
+                    "description": "Save Dr. Young from being killed by Victor Zsasz"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_10",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/4091fa2811fbac1e5eacaee223d577a62010860e.jpg",
+                    "displayName": "Solitary Confinement",
+                    "description": "Capture and lock up Harley Quinn"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_11",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/0fc9fa50a047f53f8310ba03bd44e18cc3ed5a87.jpg",
+                    "displayName": "Double Trouble",
+                    "description": "Defeat two Titan Henchmen at once"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_25",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/1333bce738d2e3a271c02604058781be184ca9cc.jpg",
+                    "displayName": "Freeflow Combo 5",
+                    "description": "Complete a combo of 5 moves (any play mode)"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_1_26",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/86215e3d11650e6aac6a8f78d9f4b4a476438c7c.jpg",
+                    "displayName": "Freeflow Combo 10",
+                    "description": "Complete a combo of 10 moves (any play mode)"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_2_6",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/4875afa4bcd810e87901fa64e3f4372867cc3835.jpg",
+                    "displayName": "Arkham Analyst",
+                    "description": "Solve 5% of Riddler challenges"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_2_7",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/6e782b47cdebd08cd04630173bb68b87217f49f7.jpg",
+                    "displayName": "Cryptic Investigator",
+                    "description": "Solve 10% of Riddler challenges"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_2_8",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/69e83661681d4189fc43249895ddbb61be77c186.jpg",
+                    "displayName": "Lateral Thinker",
+                    "description": "Solve 25% of Riddler challenges"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_2_9",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/c2f84ce85a6bc82f1018bda4b3f4a8ec16e7a766.jpg",
+                    "displayName": "Mystery Solver",
+                    "description": "Solve 40% of Riddler challenges"
+                },
+                {
+                    "name": "NEW_ACHIEVEMENT_2_10",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/35140/5a53c16845d8695b8d372f78c02d1cf82ea3b9b5.jpg",
+                    "displayName": "Conundrum Cracker",
+                    "description": "Solve 55% of Riddler challenges"
+                }
             ]
         },
         {
             "appid": 29180,
             "playtime_forever": 161,
             "name": "Osmos Demo (New)",
+            "totalAchievements": 11,
+            "totalPlayerAchievements": 0,
             "achievements": []
         },
         {
             "appid": 258890,
             "playtime_forever": 48,
             "name": "Type Rider",
+            "totalAchievements": 12,
+            "totalPlayerAchievements": 3,
             "achievements": [
-                "com.bulkypix.ACHIEVEMENT_00",
-                "com.bulkypix.ACHIEVEMENT_01",
-                "com.bulkypix.ACHIEVEMENT_06"
+                {
+                    "name": "com.bulkypix.ACHIEVEMENT_00",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/258890/f16dd949b32cda54bcead890cc7ce248c1f14682.jpg",
+                    "displayName": "Collector",
+                    "description": "Retrieve all six asterisks in one chapter"
+                },
+                {
+                    "name": "com.bulkypix.ACHIEVEMENT_01",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/258890/752547c5a4b78421014ce754b2ef701f85993abb.jpg",
+                    "displayName": "Explorer",
+                    "description": "Find one ampersand"
+                },
+                {
+                    "name": "com.bulkypix.ACHIEVEMENT_06",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/258890/c4ca77d098ca0046413118363a7d8c1e0657e4ba.jpg",
+                    "displayName": "360",
+                    "description": "Make a 360° in the air"
+                }
             ]
         },
         {
             "appid": 242700,
             "playtime_forever": 434,
             "name": "Cronus",
+            "totalAchievements": 50,
+            "totalPlayerAchievements": 6,
             "achievements": [
-                "ACHIEVEMENT_10",
-                "ACHIEVEMENT_12",
-                "ACHIEVEMENT_13",
-                "ACHIEVEMENT_23",
-                "ACHIEVEMENT_30",
-                "ACHIEVEMENT_31"
+                {
+                    "name": "ACHIEVEMENT_10",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/242700/3c0eb37f39d348468f4426bf0f5da451f45af6af.jpg",
+                    "displayName": "Sidekick",
+                    "description": "Reach Level 10"
+                },
+                {
+                    "name": "ACHIEVEMENT_12",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/242700/5faf805c23caa6b05cf2e696f1ff4c69f6d2f8e1.jpg",
+                    "displayName": "Almost There",
+                    "description": "Complete 50% of Story Mode"
+                },
+                {
+                    "name": "ACHIEVEMENT_13",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/242700/651deb390485a65eec82069ada4f1bf4eb13dedb.jpg",
+                    "displayName": "Justice for All",
+                    "description": "Complete 100% of Story Mode"
+                },
+                {
+                    "name": "ACHIEVEMENT_23",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/242700/63a32901b817c8015f053d049a0c679d581a8cf9.jpg",
+                    "displayName": "Practice Makes Perfect",
+                    "description": "Enter Practice Mode"
+                },
+                {
+                    "name": "ACHIEVEMENT_30",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/242700/be210c42b4e010c1f7db524019a7ea2a8d4644f4.jpg",
+                    "displayName": "Unstoppable Force",
+                    "description": "Win a Clash sequence with any character"
+                },
+                {
+                    "name": "ACHIEVEMENT_31",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/242700/201599f023a904f4e25ea54720c0fbf84904d166.jpg",
+                    "displayName": "Wrecking Ball",
+                    "description": "Knock an opponent through a transition"
+                }
             ]
         },
         {
             "appid": 232790,
             "playtime_forever": 330,
             "name": "Broken Age",
+            "totalAchievements": 45,
+            "totalPlayerAchievements": 17,
             "achievements": [
-                "ACT1_DONE",
-                "RETURN_THRUST",
-                "KNOT_TANGLED",
-                "MY_LIGHTNESS",
-                "FEATHER_SUIT",
-                "HULL_PATCH",
-                "WIRING_GENIUS",
-                "MOM_QUESTIONS",
-                "FIND_MOM",
-                "THRUSH_DIALOG",
-                "SAD_SCREENS",
-                "MAIDENS_DIALOG",
-                "HOLY_SMOKES",
-                "CHART_COURSE",
-                "ACT2_DONE",
-                "DROOGS_DANCE",
-                "ALL_DONE"
+                {
+                    "name": "ACT1_DONE",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/0338c53538be2afe61d928a948fd59cadb4f281e.jpg",
+                    "displayName": "Please Don't Tell Anyone"
+                },
+                {
+                    "name": "RETURN_THRUST",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/087ec1916c2e5094e92b7d2122f671000100b49e.jpg",
+                    "displayName": "Get Hyper",
+                    "description": "Return a missing spaceship part"
+                },
+                {
+                    "name": "KNOT_TANGLED",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/dc4fe79407be41c65b65925f4fe74fcc223d14ee.jpg",
+                    "displayName": "Knot Too Difficult",
+                    "description": "Clear up a tangled situation in one attempt"
+                },
+                {
+                    "name": "MY_LIGHTNESS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/12bda7df6e81a5e5fa5f8ead5f1e8f363affc2aa.jpg",
+                    "displayName": "\"My Lightness!\"",
+                    "description": "Return a heavy duty spaceship part"
+                },
+                {
+                    "name": "FEATHER_SUIT",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/39a52ab36356547b460c5853715caa5684c7c46a.jpg",
+                    "displayName": "\"What's up with all the feathers?\"",
+                    "description": "Commission a custom garment"
+                },
+                {
+                    "name": "HULL_PATCH",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/4adf031df5b5bb851150f8a353dbaa1c8f9405c7.jpg",
+                    "displayName": "\"I'll bet the undercarriage on this baby is shot.\"",
+                    "description": "Get a family member's help on a big project"
+                },
+                {
+                    "name": "WIRING_GENIUS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/a8ce002eac356fa899ab305736f5f534837039ea.jpg",
+                    "displayName": "\"And, they do windows!\"",
+                    "description": "Find a genius"
+                },
+                {
+                    "name": "MOM_QUESTIONS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/4b100daa26c4cdaa31874ddf4485e3e460e05066.jpg",
+                    "displayName": "\"What can I say? I know boots.\"",
+                    "description": "Answer some tough questions quickly"
+                },
+                {
+                    "name": "FIND_MOM",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/2847a7fc97653bc829c8f04f28be6e731d742bee.jpg",
+                    "displayName": "There Is Hope",
+                    "description": "Get to the ship's brain"
+                },
+                {
+                    "name": "THRUSH_DIALOG",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/f1ae17c7a5542bb760c529153e3c22a2d62e0ad5.jpg",
+                    "displayName": "We Talked That Fight Right Out of You",
+                    "description": "Talk to the boss"
+                },
+                {
+                    "name": "SAD_SCREENS",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/37780c9979ca4da25a4cf81b02d017f974ef407b.jpg",
+                    "displayName": "Turn That Frown Upside Down"
+                },
+                {
+                    "name": "MAIDENS_DIALOG",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/8bf2dcc4c1e7e01b345ab3aa531beaecf47a7777.jpg",
+                    "displayName": "Greetings from Obvious Town",
+                    "description": "Reconnect with some old friends"
+                },
+                {
+                    "name": "HOLY_SMOKES",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/b92777c597a7fc430a4296dc0252e23f12a3c775.jpg",
+                    "displayName": "Holy Smokes",
+                    "description": "Deploy a weapon of mass destruction"
+                },
+                {
+                    "name": "CHART_COURSE",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/a937a853662fefc4c8ebccf87a8ea1d2bc217913.jpg",
+                    "displayName": "Go With Your Instincts",
+                    "description": "Chart a course away from danger"
+                },
+                {
+                    "name": "ACT2_DONE",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/fa9132199563b9203a2c95a38839fe7b9f3911ba.jpg",
+                    "displayName": "Dammed"
+                },
+                {
+                    "name": "DROOGS_DANCE",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/dbb309f13ffa015a502087b61d6a835a1a44f78c.jpg",
+                    "displayName": "The Next Most Logical Course of Action"
+                },
+                {
+                    "name": "ALL_DONE",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/232790/dab93d895aa543027b4415f897cdba8836ee316b.jpg",
+                    "displayName": "Unbroken",
+                    "description": "Complete Broken Age"
+                }
             ]
         },
         {
             "appid": 233290,
             "playtime_forever": 517,
             "name": "MURDERED: SOUL SUSPECT™",
+            "totalAchievements": 48,
+            "totalPlayerAchievements": 35,
             "achievements": [
-                "FA_CollectiblesAcquiredAny1",
-                "FA_CollectiblesAcquiredAny10",
-                "FA_CollectiblesAcquiredAny25",
-                "FA_CollectiblesAcquiredAny50",
-                "FA_CollectiblesAcquiredAny75",
-                "FA_CollectiblesAcquiredAny100",
-                "FA_CollectiblesAcquiredAny150",
-                "FA_BeginEp02_StreetInvestigation",
-                "FA_BeginEp03_LandedOnStreet",
-                "FA_BeginEp04_ExitedChurchBackOnStreet",
-                "FA_EndEp04_ReExaminedJoy",
-                "FA_EndEp05_OnStreet_InFrontOfGraveyard",
-                "FA_EndEp06_ReExaminded_BackOnStreet",
-                "FA_EndEp07_BackInTown",
-                "FA_EndEp08_ExitedMuseum_BackInTown",
-                "FA_EndEp09_ExitedJudgementHouse_BackInTown",
-                "FA_DefeatedAbigail",
-                "FA_CompletedSideQuestOldCoupleInApartment",
-                "FA_CompletedSideQuestGhostWomanOnBeach",
-                "FA_CompletedSideQuestSeveralCarsMemoryResidue",
-                "FA_CompletedSideQuestGhostStalkingEngagedCouple",
-                "FA_UsedRemove",
-                "FA_UsedReveal",
-                "FA_PossessedCat",
-                "FA_UsedMindRead",
-                "FA_UsedPoltergeist",
-                "FA_InterrogatedOptionalGhost",
-                "FA_DefeatedDemon",
-                "FA_Ep02_CompletedStreetInvestigation",
-                "FA_UsedTeleport",
-                "FA_CollectiblesAcquiredAllTypeBaxter",
-                "FA_CollectiblesAcquiredAllTypeRex",
-                "FA_CollectiblesAcquiredAllTypeCassandra",
-                "FA_CollectiblesAcquiredAllTypeGhostStoryApartment",
-                "FA_CollectiblesAcquiredAllTypeGhostStoryPoliceStation"
+                {
+                    "name": "FA_CollectiblesAcquiredAny1",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/48a672e01fa4cde0734811f58087e49d9f90b77b.jpg",
+                    "displayName": "Collector 1",
+                    "description": "Collected an artifact"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAny10",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/4ef5dc0cb84aa3fcf9311df4f6689979dc34fcae.jpg",
+                    "displayName": "Collector  10",
+                    "description": "Collected 10 artifacts"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAny25",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/3c77c82ef3e1763aea612ebac2f65fb3431b4463.jpg",
+                    "displayName": "Collector 25",
+                    "description": "Collected 25 artifacts"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAny50",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/8625333f028a06023aa5c4cb717afd3c495108b3.jpg",
+                    "displayName": "Collector 50",
+                    "description": "Collected 50 artifacts"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAny75",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/3083d00716593bf4bb033e7a55a7336eb6fccda1.jpg",
+                    "displayName": "Collector 75",
+                    "description": "Collected 75 artifacts"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAny100",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/e8a1ba261b2d4bcae3da6e8b1a0aa7a3da636fd7.jpg",
+                    "displayName": "Collector 100",
+                    "description": "Collected 100 artifacts"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAny150",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/612fc6eaf88af9e794fe9c55abb5dcb6e7e2cc84.jpg",
+                    "displayName": "Collector 150",
+                    "description": "Collected 150 artifacts"
+                },
+                {
+                    "name": "FA_BeginEp02_StreetInvestigation",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/e2fea43a212b797a671d56cb4a64f5c41ca89714.jpg",
+                    "displayName": "The Death Wish of a Shady Man"
+                },
+                {
+                    "name": "FA_BeginEp03_LandedOnStreet",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/aa30d84619999b3aac653eab17427f293f6e8095.jpg",
+                    "displayName": "One of Us"
+                },
+                {
+                    "name": "FA_BeginEp04_ExitedChurchBackOnStreet",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/d19e3decbffd65759518f921239447a7e4ec3c8f.jpg",
+                    "displayName": "Makeshift Sanctuary"
+                },
+                {
+                    "name": "FA_EndEp04_ReExaminedJoy",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/b08e30e18d9ffcbe34bc3c5e2523d104cff00819.jpg",
+                    "displayName": "Half-Truths and Whole Lies"
+                },
+                {
+                    "name": "FA_EndEp05_OnStreet_InFrontOfGraveyard",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/1f6fa47818cfed369a8c357cfa3726737d0523d2.jpg",
+                    "displayName": "Ashland"
+                },
+                {
+                    "name": "FA_EndEp06_ReExaminded_BackOnStreet",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/eac8e85b687e8966c780563306ee46a943ad09ad.jpg",
+                    "displayName": "Lost Causes"
+                },
+                {
+                    "name": "FA_EndEp07_BackInTown",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/a3c2c50f5e3088869bc0709501062b0ced66060a.jpg",
+                    "displayName": "Wicked Tempers"
+                },
+                {
+                    "name": "FA_EndEp08_ExitedMuseum_BackInTown",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/a43692da065a477968d68a38226d385777eb8a44.jpg",
+                    "displayName": "Ghosts Never Die"
+                },
+                {
+                    "name": "FA_EndEp09_ExitedJudgementHouse_BackInTown",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/0092cba72864641277daec2342b1185d36d25585.jpg",
+                    "displayName": "Judgement"
+                },
+                {
+                    "name": "FA_DefeatedAbigail",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/4ec1fd5998c4130075e562b7b9a229fb62715df1.jpg",
+                    "displayName": "Tightening the Noose"
+                },
+                {
+                    "name": "FA_CompletedSideQuestOldCoupleInApartment",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/09bc8f118a692ba6538f5e7db83234a1416621a4.jpg",
+                    "displayName": "The Missing Body",
+                    "description": "Helped Ingrid find peace"
+                },
+                {
+                    "name": "FA_CompletedSideQuestGhostWomanOnBeach",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/446ec30d3820b5b64b95508673639fbf08163a9f.jpg",
+                    "displayName": "Amnesia",
+                    "description": "Helped Julie find peace"
+                },
+                {
+                    "name": "FA_CompletedSideQuestSeveralCarsMemoryResidue",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/aeeec28774144eca2f1e2bf20f881bed89a89701.jpg",
+                    "displayName": "Carnage",
+                    "description": "Helped Brad find peace"
+                },
+                {
+                    "name": "FA_CompletedSideQuestGhostStalkingEngagedCouple",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/136f249640d31529116967e01aa5b352631a2910.jpg",
+                    "displayName": "Scorned",
+                    "description": "Helped Katy find peace"
+                },
+                {
+                    "name": "FA_UsedRemove",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/92e1ebd8be8bfe07464a6f84a5e9119ec2afc8a7.jpg",
+                    "displayName": "Discover Remove",
+                    "description": "Used Remove for the first time"
+                },
+                {
+                    "name": "FA_UsedReveal",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/ebb32b4125d551c92b2072ff272f0fd2a74f342c.jpg",
+                    "displayName": "Discover Reveal",
+                    "description": "Used Reveal for the first time"
+                },
+                {
+                    "name": "FA_PossessedCat",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/fa3ba76de0eb940e57525bcf1dd84c75152d5bc5.jpg",
+                    "displayName": "Possess the Cat",
+                    "description": "Possessed the cat"
+                },
+                {
+                    "name": "FA_UsedMindRead",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/c009d23d98bad4926f5592141e759bb03db5df6d.jpg",
+                    "displayName": "Mindreader",
+                    "description": "Used Mind Read for the first time"
+                },
+                {
+                    "name": "FA_UsedPoltergeist",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/0b4ccc39542eeebbab8f1ed1f8c16ae5cbbe96c9.jpg",
+                    "displayName": "Poltergeist",
+                    "description": "Used Poltergeist for the first time"
+                },
+                {
+                    "name": "FA_InterrogatedOptionalGhost",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/733928b95a263e34c89c6e44eb1d566e027eb6e9.jpg",
+                    "displayName": "Interrogator",
+                    "description": "Interrogated a ghost for the first time"
+                },
+                {
+                    "name": "FA_DefeatedDemon",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/58c0570f9e4e6862901cf5a07371c0418f68ae0c.jpg",
+                    "displayName": "Exorcist",
+                    "description": "Defeated a demon"
+                },
+                {
+                    "name": "FA_Ep02_CompletedStreetInvestigation",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/5bfbf09f506beec1ef8b0e5b36465d335db6e043.jpg",
+                    "displayName": "Investigator",
+                    "description": "Completed the first investigation"
+                },
+                {
+                    "name": "FA_UsedTeleport",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/ed4fc8764e7b67ccd60b4a683d322d6c7968a70a.jpg",
+                    "displayName": "Teleporter",
+                    "description": "Teleported for the first time"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAllTypeBaxter",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/ab4f754f87bd0ce37323ac1515b08f9ff6d5fb4f.jpg",
+                    "displayName": "Baxter's Story",
+                    "description": "Learned about Baxter's Life"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAllTypeRex",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/3b54474b11d56a1a640f2f17f63d409725e5ea47.jpg",
+                    "displayName": "Rex's Story",
+                    "description": "Learned about Rex's Life"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAllTypeCassandra",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/6a78b20c15d2c21af0cb09327644fbe8ba00ffaa.jpg",
+                    "displayName": "Cassandra's Story",
+                    "description": "Learned about Cassandra's Life"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAllTypeGhostStoryApartment",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/31200a4030970d116cd30eadbbe4ecf84c6d18a2.jpg",
+                    "displayName": "A Watery Grave",
+                    "description": "Uncovered the Watery Grave ghost story"
+                },
+                {
+                    "name": "FA_CollectiblesAcquiredAllTypeGhostStoryPoliceStation",
+                    "icon": "http://cdn.akamai.steamstatic.com/steamcommunity/public/images/apps/233290/3a147d386b60e9a48bfb1be77011727bf5e29fd0.jpg",
+                    "displayName": "The Stalwart Specter",
+                    "description": "Uncovered The Stalwart Specter ghost story"
+                }
             ]
         }
     ]

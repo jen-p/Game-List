@@ -1,0 +1,8 @@
+<product-title></product-title>
+
+app.directive('productTitle', function(){
+	return {
+		restrict: 'A',
+		templateUrl:'product-title.html'
+	};
+});
