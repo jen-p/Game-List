@@ -17,7 +17,16 @@
 	<div class="main" ng-controller="appController">
 		<div class="container">
 			<h1>{{title}}</h1>
-			<p>{{games}}</p>
+			<div ng-repeat="game in games">
+				<h2>{{game.name}}</h2>
+				<p>{{game.playtime_forever}}
+				<ul>
+					<li ng-repeat="achievement in achievements">
+						<img ng-src="{{achievement.icon}}">
+						{{achievement.displayName}}
+					</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<!--http://api.steampowered.com/ISteamUser/GetPlayerSummaries/v0002/?key=E1236C804C048AFC127EE0003D297864&steamids=76561197994963410
@@ -31,16 +40,16 @@
 	
 	
 
-	Example URL: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197972495328 
+	Example URL: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197994963410 
 	
 	- get owned games: 
-		- http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=E1236C804C048AFC127EE0003D297864&steamid=76561197960434622&format=json
+		- http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=E1236C804C048AFC127EE0003D297864&steamid=76561197994963410&format=json
 	- filter out ones with 0 hours played
 	- use ids of games to get game information
 		-  http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=E1236C804C048AFC127EE0003D297864&appid=218620
 		- name
 	- get player achievements
-	Example URL: http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197972495328
+	Example URL: http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197994963410
 
 	-->
 

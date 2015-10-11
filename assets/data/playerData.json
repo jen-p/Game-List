@@ -1,0 +1,155 @@
+{
+    "games": [
+        {
+            "appid": 220,
+            "playtime_forever": 1,
+            "name": "Half-Life 2",
+            "achievements": []
+        },
+        {
+            "appid": 400,
+            "playtime_forever": 258,
+            "name": "Portal",
+            "achievements": [
+                "PORTAL_GET_PORTALGUNS",
+                "PORTAL_KILL_COMPANIONCUBE",
+                "PORTAL_ESCAPE_TESTCHAMBERS",
+                "PORTAL_BEAT_GAME",
+                "PORTAL_BEAT_2ADVANCEDMAPS",
+                "PORTAL_BEAT_4ADVANCEDMAPS",
+                "PORTAL_HIT_TURRET_WITH_TURRET"
+            ]
+        },
+        {
+            "appid": 12900,
+            "playtime_forever": 306,
+            "name": "Audiosurf",
+            "achievements": [
+                "ACH_GOLD_NO_OVERFILL",
+                "ACH_MULTICLEAN",
+                "ACH_PPM_LOW"
+            ]
+        },
+        {
+            "appid": 35140,
+            "playtime_forever": 811,
+            "name": "Batman Arkham Asylum GOTY",
+            "achievements": [
+                "NEW_ACHIEVEMENT_1_0",
+                "NEW_ACHIEVEMENT_1_1",
+                "NEW_ACHIEVEMENT_1_2",
+                "NEW_ACHIEVEMENT_1_3",
+                "NEW_ACHIEVEMENT_1_4",
+                "NEW_ACHIEVEMENT_1_5",
+                "NEW_ACHIEVEMENT_1_6",
+                "NEW_ACHIEVEMENT_1_7",
+                "NEW_ACHIEVEMENT_1_8",
+                "NEW_ACHIEVEMENT_1_9",
+                "NEW_ACHIEVEMENT_1_10",
+                "NEW_ACHIEVEMENT_1_11",
+                "NEW_ACHIEVEMENT_1_25",
+                "NEW_ACHIEVEMENT_1_26",
+                "NEW_ACHIEVEMENT_2_6",
+                "NEW_ACHIEVEMENT_2_7",
+                "NEW_ACHIEVEMENT_2_8",
+                "NEW_ACHIEVEMENT_2_9",
+                "NEW_ACHIEVEMENT_2_10"
+            ]
+        },
+        {
+            "appid": 29180,
+            "playtime_forever": 161,
+            "name": "Osmos Demo (New)",
+            "achievements": []
+        },
+        {
+            "appid": 258890,
+            "playtime_forever": 48,
+            "name": "Type Rider",
+            "achievements": [
+                "com.bulkypix.ACHIEVEMENT_00",
+                "com.bulkypix.ACHIEVEMENT_01",
+                "com.bulkypix.ACHIEVEMENT_06"
+            ]
+        },
+        {
+            "appid": 242700,
+            "playtime_forever": 434,
+            "name": "Cronus",
+            "achievements": [
+                "ACHIEVEMENT_10",
+                "ACHIEVEMENT_12",
+                "ACHIEVEMENT_13",
+                "ACHIEVEMENT_23",
+                "ACHIEVEMENT_30",
+                "ACHIEVEMENT_31"
+            ]
+        },
+        {
+            "appid": 232790,
+            "playtime_forever": 330,
+            "name": "Broken Age",
+            "achievements": [
+                "ACT1_DONE",
+                "RETURN_THRUST",
+                "KNOT_TANGLED",
+                "MY_LIGHTNESS",
+                "FEATHER_SUIT",
+                "HULL_PATCH",
+                "WIRING_GENIUS",
+                "MOM_QUESTIONS",
+                "FIND_MOM",
+                "THRUSH_DIALOG",
+                "SAD_SCREENS",
+                "MAIDENS_DIALOG",
+                "HOLY_SMOKES",
+                "CHART_COURSE",
+                "ACT2_DONE",
+                "DROOGS_DANCE",
+                "ALL_DONE"
+            ]
+        },
+        {
+            "appid": 233290,
+            "playtime_forever": 517,
+            "name": "MURDERED: SOUL SUSPECT™",
+            "achievements": [
+                "FA_CollectiblesAcquiredAny1",
+                "FA_CollectiblesAcquiredAny10",
+                "FA_CollectiblesAcquiredAny25",
+                "FA_CollectiblesAcquiredAny50",
+                "FA_CollectiblesAcquiredAny75",
+                "FA_CollectiblesAcquiredAny100",
+                "FA_CollectiblesAcquiredAny150",
+                "FA_BeginEp02_StreetInvestigation",
+                "FA_BeginEp03_LandedOnStreet",
+                "FA_BeginEp04_ExitedChurchBackOnStreet",
+                "FA_EndEp04_ReExaminedJoy",
+                "FA_EndEp05_OnStreet_InFrontOfGraveyard",
+                "FA_EndEp06_ReExaminded_BackOnStreet",
+                "FA_EndEp07_BackInTown",
+                "FA_EndEp08_ExitedMuseum_BackInTown",
+                "FA_EndEp09_ExitedJudgementHouse_BackInTown",
+                "FA_DefeatedAbigail",
+                "FA_CompletedSideQuestOldCoupleInApartment",
+                "FA_CompletedSideQuestGhostWomanOnBeach",
+                "FA_CompletedSideQuestSeveralCarsMemoryResidue",
+                "FA_CompletedSideQuestGhostStalkingEngagedCouple",
+                "FA_UsedRemove",
+                "FA_UsedReveal",
+                "FA_PossessedCat",
+                "FA_UsedMindRead",
+                "FA_UsedPoltergeist",
+                "FA_InterrogatedOptionalGhost",
+                "FA_DefeatedDemon",
+                "FA_Ep02_CompletedStreetInvestigation",
+                "FA_UsedTeleport",
+                "FA_CollectiblesAcquiredAllTypeBaxter",
+                "FA_CollectiblesAcquiredAllTypeRex",
+                "FA_CollectiblesAcquiredAllTypeCassandra",
+                "FA_CollectiblesAcquiredAllTypeGhostStoryApartment",
+                "FA_CollectiblesAcquiredAllTypeGhostStoryPoliceStation"
+            ]
+        }
+    ]
+}
