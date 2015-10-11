@@ -27,11 +27,22 @@
 
 	Domain Name: jenniferpatel.com
 
-	http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=XXXXXXXXXXXXXXXXX&steamid=76561197960434622&format=json
+	
+	
+	
 
-	Example URL: http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamid=76561197972495328
+	Example URL: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197972495328 
+	
+	- get owned games: 
+		- http://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/?key=E1236C804C048AFC127EE0003D297864&steamid=76561197960434622&format=json
+	- filter out ones with 0 hours played
+	- use ids of games to get game information
+		-  http://api.steampowered.com/ISteamUserStats/GetSchemaForGame/v2/?key=E1236C804C048AFC127EE0003D297864&appid=218620
+		- name
+	- get player achievements
+	Example URL: http://api.steampowered.com/ISteamUserStats/GetPlayerAchievements/v0001/?appid=440&key=E1236C804C048AFC127EE0003D297864&steamid=76561197972495328
 
-	Example URL: http://api.steampowered.com/ISteamUserStats/GetUserStatsForGame/v0002/?appid=440&key=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX&steamid=76561197972495328 -->
+	-->
 
 </body>
 </html>
